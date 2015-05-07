@@ -3,6 +3,7 @@
 
 int printPWD(void){
     char *env_p = getenv("PWD");
+
     if (env_p){
         printf("PWD = %s\n", env_p);
     return 0;
